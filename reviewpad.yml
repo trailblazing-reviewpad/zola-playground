@@ -1,0 +1,13 @@
+workflows:
+  - name: test
+    run:
+     - $addLabel("1")
+     - $addLabel("2")
+     - $addLabel("3")
+     - $addLabel("4")
+     - $addLabel("5")
+     - $addLabel("6")
+     - $addLabel("7")
+     - $addLabel("8")
+     - $addLabel("9")
+     - $addLabel("10")

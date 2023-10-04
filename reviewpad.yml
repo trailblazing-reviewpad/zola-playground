@@ -1,3 +1,11 @@
 checks:
   non-conventional-commits:
     activation: on
+  large:
+    parameters:
+      max-lines: 0
+  high-code-churn:
+    parameters:
+      max-rate: 0
+      min-deleted-lines: 0
+     

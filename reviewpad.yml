@@ -3,12 +3,12 @@ checks:
     activation: on
   stale:
     parameters:
-      max-idle-days: 0
+      max-idle-days: -1
   large:
     parameters:
-      max-lines: 0
+      max-lines: -1
   high-code-churn:
     parameters:
-      max-rate: 0
-      min-deleted-lines: 0
+      max-rate: -1
+      min-deleted-lines: -1
      

@@ -1,6 +1,9 @@
 checks:
   non-conventional-commits:
     activation: on
+  stale:
+    parameters:
+      max-idle-days: 0
   large:
     parameters:
       max-lines: 0

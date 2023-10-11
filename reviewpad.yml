@@ -20,7 +20,6 @@ checks:
   non-conventional-commits:
     activation: off
   stale:
-    activation: off
     parameters:
       max-idle-days: -1
   unstable-build:

@@ -2,9 +2,13 @@ checks:
   git-conflict:
     activation: off
   high-code-churn:
-    activation: off
+    parameters:
+      max-rate: 1
+      min-deleted-lines: 1
   high-internal-code-churn:
-    activation: off
+    parameters:
+      max-rate: 1
+      min-deleted-lines: 1
   large:
     parameters:
       max-lines: -1

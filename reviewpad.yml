@@ -16,7 +16,8 @@ checks:
     parameters:
       max-days: -1
   long-pick-up-time:
-    activation: off
+    parameters:
+      max-hours: -1
   many-comments:
     activation: off
   many-review-iterations:

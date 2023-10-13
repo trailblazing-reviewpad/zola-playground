@@ -13,9 +13,11 @@ checks:
     parameters:
       max-lines: -1
   long-lived:
+    activation: off
     parameters:
       max-days: -1
   long-pick-up-time:
+    activation: off
     parameters:
       max-hours: -1
   many-comments:
@@ -25,6 +27,7 @@ checks:
   non-conventional-commits:
     activation: off
   stale:
+    activation: off
     parameters:
       max-idle-days: -1
   unstable-build:

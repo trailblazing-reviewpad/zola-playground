@@ -6,11 +6,11 @@ checks:
     parameters:
       max-idle-days: -1
   long-lived:
-    activation: off
+    activation: on
     parameters:
       max-days: -1
   long-pick-up-time:
-    activation: off
+    activation: on
     parameters:
       max-hours: -1
 

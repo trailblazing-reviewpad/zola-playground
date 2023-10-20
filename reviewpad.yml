@@ -3,11 +3,11 @@ checks:
     parameters:
       max-lines: -1
   stale:
-    activation: off
+    activation: on
     parameters:
       max-idle-days: -1
   long-lived:
-    activation: off
+    activation: on
     parameters:
       max-days: -1
 
